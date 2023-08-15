@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+## Install ansible
+brew install git curl ansible
+
+
+## Pull Ansible
+sudo ansible-pull -U https://github.com/FocusThen/.dotfiles.git

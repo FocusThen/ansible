@@ -1,0 +1,4 @@
+- hosts: localhost
+  become: false 
+  tasks:
+    - include: tasks/zsh-setup.yml
