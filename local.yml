@@ -1,3 +1,6 @@
 - hosts: localhost
   tasks:
-    - include: tasks/zsh-setup.yml
+    - include_tasks: '{{ item }}'
+      loop:
+        - tasks/zsh-setup.yml
+        - task/dotfiles.yml

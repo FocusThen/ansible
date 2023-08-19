@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/opt/homebrew/bin/bash
 
 ## Install ansible
 brew install git curl ansible
 
 
 ## Pull Ansible
-sudo ansible-pull -U https://github.com/FocusThen/.dotfiles.git
+sudo ansible-pull -U https://github.com/FocusThen/ansible.git

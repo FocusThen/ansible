@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/env bash
 # Undo node
 npm uninstall -g yarn typescript-language-server typescript
 sudo brew uninstall nodejs npm
