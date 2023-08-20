@@ -2,5 +2,6 @@
   tasks:
     - include_tasks: '{{ item }}'
       loop:
+        - tasks/homebrew.yml
         - tasks/zsh-setup.yml
-        - task/dotfiles.yml
+        - tasks/dotfiles.yml
