@@ -2,7 +2,7 @@
   stat:
     path: ~/.oh-my-zsh
   register: oh_my_stats
-  tags: &tags_for_zsh_tasks [ 'install', 'productivity', 'dotfiles', 'zsh' ]
+  tags: &tags_for_zsh_tasks [ 'install','dotfiles', 'zsh' ]
 
 - name: Oh-My-Zsh
   shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh > ~/.oh-my-installer && chmod +x ~/.oh-my-installer && ~/.oh-my-installer
